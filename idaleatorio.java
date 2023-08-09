@@ -20,6 +20,16 @@ class CalcularHoras{
      
      String horasTrabalhadas = horas.next();
      
+     //cálculo do valor a receber
+     int ValorAReceber;
+     
+     if (horasTrabalhadas<=40){
+         
+     }
+     else{
+         
+     }
+     
      //exibe o protocolo e o valor a receber
        System.out.println("\n Por favor, anote o seu protocolo "+protocolo);
       }
