@@ -24,10 +24,12 @@ class CalcularHoras{
      int ValorAReceber;
      
      if (horasTrabalhadas<=40){
-         
+        ValorAReceber = horasTrabalhadas*20;
+        System.out.println("O valor a ser receber é: "+ValorAReceber);
      }
      else{
-         
+        ValorAReceber = horasTrabalhadas*(22+500);
+        System.out.println("O valor a ser receber é: "+ValorAReceber);
      }
      
      //exibe o protocolo e o valor a receber
