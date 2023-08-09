@@ -18,7 +18,7 @@ class CalcularHoras{
      
      Scanner horas = new Scanner(System.in);
      
-     String horasTrabalhadas = horas.next();
+     int horasTrabalhadas = horas.nextInt();
      
      //calculo do valor a receber
      int ValorAReceber;
@@ -28,11 +28,11 @@ class CalcularHoras{
         System.out.println("O valor a ser receber e: "+ValorAReceber);
      }
      else{
-        ValorAReceber = horasTrabalhadas*(22+500);
+        ValorAReceber = horasTrabalhadas*22+500;
         System.out.println("O valor a ser receber e: "+ValorAReceber);
      }
      
      //exibe o protocolo
-       System.out.println("\n Por favor, anote o seu protocolo "+protocolo);
+       System.out.println("\n Protocolo "+protocolo);
       }
     }
