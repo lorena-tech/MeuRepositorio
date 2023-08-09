@@ -23,7 +23,7 @@ class CalcularHoras{
      //calculo do valor a receber
      int ValorAReceber;
      
-     if (horasTrabalhadas<=40){
+     if (horasTrabalhadas<40){
         ValorAReceber = horasTrabalhadas*20;
         System.out.println("O valor a ser receber e: "+ValorAReceber);
      }
